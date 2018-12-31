@@ -1124,3 +1124,8 @@ body {
 .fa-redis {
   color: #7a0c00;
 }
+
+/* skill section */
+.skill-title h3 {
+  font-size: 12px;
+}
