@@ -943,3 +943,66 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+/* === Skill Section === */
+
+.skill-icon {
+  width: 15%;
+}
+
+.skill-title {
+  width: 45%;
+}
+
+  .skill-title span
+, .skill-title i {
+  float: left;
+  margin-top: -6px;
+  line-height: 24px;
+}
+.skill-title i {
+  margin-right: 4px;
+}
+
+.skill-title span {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-top: -4px;
+}
+
+
+/* === progress-bar === */
+.skill-progress .progress {
+  float-left;
+  background-color: #3a4149;
+  background-image: none;
+}
+
+.progress {
+}
+
+.progress-bar {
+  background-color: #68c3a3;
+}
+
+.progress-bar.six-sec-ease-in-out {
+  background-image: linear-gradient(to bottom,#3b8269 0,#68c3a3 100%);
+}
+
+.progress .progress-bar.six-sec-ease-in-out {
+  -webkit-transition: width 4s ease-in-out;
+     -moz-transition: width 4s ease-in-out;
+       -o-transition: width 4s ease-in-out;
+          transition: width 4s ease-in-out;
+}
+
+
+/* === Chart CSS === */
+.percent {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.chart-text span {
+  font-size: 18px;
+}
