@@ -947,7 +947,7 @@ body {
 
 /* === Skill Section === */
 /* Make sure that padding behaves as expected */
-* {box-sizing:border-box}
+
 
 /* Container for skill bars */
 .container {
